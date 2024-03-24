@@ -18,4 +18,4 @@ class CalculatorTest(SimpleTestCase):
     
     def test_subtract_numbers_in_0(self):
         res = calculator.subtract(0,6)
-        self.assertEqual(res,4)    
+        self.assertEqual(res,-6)    
